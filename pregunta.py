@@ -9,7 +9,7 @@ correctamente. Tenga en cuenta datos faltantes y duplicados.
 import pandas as pd
 
 
-def clean_df():
+def clean_data():
 
     df = pd.read_csv("solicitudes_credito.csv", sep=";",index_col=0)
 
